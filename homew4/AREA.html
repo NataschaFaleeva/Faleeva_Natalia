@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+</head>
+
+<body>
+    <h2 style="text-align:center; ">Что такое тег &lt;area&gt; и когда применяется? </h2>
+     <p style="font-size:20px ;">HTML &lt;area&gt; элемент определяет активную область на изображении и, при желании, связывает её с гипертекстовой ссылкой. Этот элемент используется только внутри элемента &lt;map&gt;.</p>
+     <hr>
+     <p style="font-size:20px"> Каждый элемент &lt;area&gt; определяет активные области изображения, которые являются ссылками. Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть разбито на невидимые зоны разной формы, где каждая из областей служит ссылкой. Тег &lt;area&gt; задает форму области, ее размеры, устанавливает адрес документа, на который следует сделать ссылку, а также имя окна или фрейма, куда браузер будет загружать документ. Этот тег всегда располагается в контейнере &lt;map&gt;, который связывает координаты областей с изображением. </p>
+     <hr>
+     <p style="font-size:20px"><img src="net.jpeg" alt="shop" usemap="#map" height="400px" width="720px">Нажмите на ноутбук, телефон и планшет</p>
+     <map name="map">
+        <area shape="rect" alt="Apple MacBook Pro"  coords="250,150,500,400" href="https://www.21vek.by/notebooks/macbookpro13m12020256gbmyd82_apple.html">
+        <area shape="rect" alt="AApple iPhone"  coords="80,250,150,150" href="https://www.21vek.by/mobile/iphone13256gbmlp73_apple.html">
+        <area shape="rect" alt="Apple iPad Pro"  coords="600,330,700,350" href="https://www.21vek.by/pads/ipadpro11wifi128gbmy232_apple.html">
+     </map> 
+</div>
+</body>
+</html>
