@@ -1,0 +1,13 @@
+.block {
+    height: 250px;
+    
+    background:
+    url('5.jpeg') no-repeat left top,
+    url('6.jpeg') no-repeat bottom left,
+    url('7.jpeg') no-repeat top right,
+    url('8.jpeg') no-repeat bottom right,
+    url('1.jpeg') repeat-y left,
+    url('2.jpeg') repeat-y right,
+    url('3.jpeg') repeat-x left top,
+    url('4.jpeg') repeat-x left bottom;
+}
