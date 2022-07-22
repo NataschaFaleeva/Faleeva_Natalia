@@ -1,0 +1,4 @@
+.border{
+    border: solid 50px;
+    border-image: url('ramka.jpeg') 80  round ;
+}
